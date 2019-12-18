@@ -1,0 +1,19 @@
+{
+    "name": "likemusic/larevel-mysql-float",
+    "description": "Allows Laravel migrations to create FLOAT columns in MySQL",
+    "require": {
+        "illuminate/database": "~5.4|~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valerij Ivashchenko",
+            "email": "likemusicdev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Likemusic\\LaravelMysqlFloat\\": "src/"
+        }
+    }
+}
