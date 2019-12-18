@@ -15,5 +15,12 @@
         "psr-4": {
             "Likemusic\\LaravelMysqlFloat\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Likemusic\\LaravelMysqlFloat\\MySqlConnectionProvider"
+            ]
+        }
     }
 }
